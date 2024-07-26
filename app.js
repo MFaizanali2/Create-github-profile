@@ -1,4 +1,5 @@
 let github = document.getElementById("githubUser");
+let githubProfiler = document.getElementById("container");
 
 const getuser = () =>{
 
