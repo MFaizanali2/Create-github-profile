@@ -1,5 +1,7 @@
 let github = document.getElementById("githubUser");
+let btn = document.getElementById("btn")
 let githubProfiler = document.querySelector(".container");
+
 
 function getuser() {
 
