@@ -57,7 +57,9 @@ html,body{
     text-align: center;
     background-color: #fff;
     margin: 20px auto;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .container img{
