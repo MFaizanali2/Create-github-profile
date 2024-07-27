@@ -77,3 +77,13 @@ html,body{
     width: 100px !important;
     height: 100px !important;
 } */
+#bottom{
+    width: 100%;
+    height: 10%;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    /* margin-top: 5px; */
+}
