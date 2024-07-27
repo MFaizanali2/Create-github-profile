@@ -1,7 +1,7 @@
 let github = document.getElementById("githubUser");
 let githubProfiler = document.querySelector(".container");
 
-const getuser = () => {
+function getuser(){
 
     event.preventDefault();
 
