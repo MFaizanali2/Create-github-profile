@@ -53,14 +53,14 @@ html,body{
     cursor: pointer;
 }
 .container{
-    max-width: 380px;
+    max-width: 500px;
     text-align: center;
     background-color: #fff;
     margin: 20px auto;
 }
 .container img{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     /* display: flex;
     text-align: center;
     align-items: center;
