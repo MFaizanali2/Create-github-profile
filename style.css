@@ -52,7 +52,17 @@ html,body{
     font-family: sans-serif;
     cursor: pointer;
 }
-.card .card-img-top{
+.container{
+    max-width: 380px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px auto;
+}
+.container img{
+    width: 60px;
+    height: 60px;
+}
+/* .card .card-img-top{
     width: 100px !important;
     height: 100px !important;
-}
+} */
