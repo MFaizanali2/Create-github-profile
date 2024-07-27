@@ -32,7 +32,8 @@ function showdata(main) {
             <div class="card-body">
                 <h5 class="card-title">${main.bio}</h5>
                 <h5 class="card-title">${main.name}</h5>
-                <p class="card-text"> .</p>
+                <p class="card-text">Followers : ${main.followers}.</p>
+                <p class="card-text">${main.location}.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>`
