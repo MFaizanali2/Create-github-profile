@@ -26,9 +26,7 @@ function getuser() {
 btn.addEventListener("click", getuser); 
 function showdata(main) {
     
-    
-}
-githubProfiler.innerHTML = `
+    githubProfiler.innerHTML = `
     <div class="card" style="width: 18rem;">
         <img src="${main.avatar_url}" class="card-img-top" alt="...">
             <div class="card-body">
@@ -37,4 +35,5 @@ githubProfiler.innerHTML = `
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>`
+}
 
