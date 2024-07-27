@@ -59,12 +59,14 @@ html,body{
     margin: 20px auto;
 }
 .container img{
-    width: 60px;
-    height: 60px;
-    display: flex;
+    width: 70px;
+    height: 70px;
+    /* display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    border-radius: 50%;
+    margin: 10px auto;
 
 }
 /* .card .card-img-top{
