@@ -30,11 +30,11 @@ function showdata(main) {
     <div class="card" style="width: 18rem;">
         <img src="${main.avatar_url}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">${main.bio}</h5>
                 <h5 class="card-title">${main.name}</h5>
-                <p class="card-text">Followers : ${main.followers}.</p>
-                <p class="card-text">${main.location}.</p>
-                <a href="#" class="btn btn-primary">Github Account:${main.url}</a>
+                <h5 class="card-title">${main.bio}</h5>
+                <h5 class="card-text">Followers : ${main.followers}</h5>
+                <h5 class="card-text">Following : ${main.following}</h5>
+                <a href="#" class="btn btn-primary">Follow me</a>
             </div>
         </div>`
 }
