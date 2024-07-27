@@ -34,7 +34,7 @@ function showdata(main) {
                 <h5 class="card-title">${main.name}</h5>
                 <p class="card-text">Followers : ${main.followers}.</p>
                 <p class="card-text">${main.location}.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-primary">Github Account:${main.url}</a>
             </div>
         </div>`
 }
