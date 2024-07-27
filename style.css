@@ -61,6 +61,11 @@ html,body{
 .container img{
     width: 60px;
     height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 /* .card .card-img-top{
     width: 100px !important;
