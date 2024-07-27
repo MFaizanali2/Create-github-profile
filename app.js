@@ -24,7 +24,7 @@ function getuser() {
 }
 
 
-
+btn.addEventListener("click", getuser);
 function showdata(main) {
     githubProfiler.innerHTML = ` <img src="${main.avatar_url}"  alt="...">`
     githubProfiler.innerHTML = `
